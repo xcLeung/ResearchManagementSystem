@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ResearchManagementSystem.Web.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/Master.css" rel="stylesheet" />
+    <link href="css/styles/login.css" rel="stylesheet" />
+    <script src="<%=ResolveUrl("~/Web/js/jquery-1.9.1.min.js") %>"></script>
+    <script src="<%=ResolveUrl("~/Web/js/jquery-migrate-1.1.1.js") %>"></script>
+    <script>
+        $(function () {
+            //$(".body").height($(window).height() - 73 - 30 - 20);
+            //$(window).resize(function () {
+            //    $(".body").height($(window).height() - 73 - 30 - 20);
+            //});
+        });
+       
+  
+
+    </script>
+    <title>项目申报系统</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+<body>
+    <header>
+      <div class="head">
+        headpic
+        <div class="img"></div>
+      </div>
+
+        <div class="header-nav">
+            <ul>
+                <li><a href="<%=ResolveUrl("~/Web/MyWorks") %>">我的作品</a></li>
+                <li><a href="<%=ResolveUrl("~/Web/Match") %>">杯赛列表</a></li>
+                <li><a href="<%=ResolveUrl("~/Web/Student") %>">学生个人中心</a></li>
+                <li><a href="<%=ResolveUrl("~/Web/Login/Default.aspx") %>" onclick="logout()">退出登录</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+
+    <div class="body">
+     
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">      
+            </asp:ContentPlaceHolder>
+    
+    </div>
+
+    <footer>
+        <div class="footer-bottom">
+            Copyright &copy; <%=DateTime.Now.Year %> 版权所有 <a href="../Web" style="color:#1a6383;">项目申报系统</a> PoweredBy Racent Inc.
+        </div>
+    </footer>
+
+</body>
+</html>

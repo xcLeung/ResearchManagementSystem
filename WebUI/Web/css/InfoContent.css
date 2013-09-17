@@ -1,0 +1,66 @@
+﻿* {
+    list-style:none;
+}
+
+body {
+    font-size: 16px;
+    /*background-image: url('../img/bg.png');*/
+    margin-bottom: 30px;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+
+.InfoContent {
+    min-height:500px;
+    margin-bottom:80px;
+}
+
+    .InfoContent .Title {
+        margin:50px;
+        color:#5e7fbc;
+        padding-bottom:20px;
+        border-bottom: 1px dashed #CCC;
+    }
+
+    .InfoContent .layout {
+        padding-left:130px;
+        width:100%;
+    }
+
+    .InfoContent .Warning {
+        font-weight:bold; font-size:18px;
+        background-color: #edf0f1;
+        margin:20px;
+        margin-left:200px;
+        margin-bottom:60px;
+        padding: 24px;
+        width: 800px;
+    }
+
+
+.layout {
+
+}
+
+    .layout div {
+        margin-bottom:24px;
+    }
+
+    .layout .JForm {
+        padding-left:230px;
+    }
+
+    .layout .Remark {
+        color:#CCC;
+        text-align:left;
+        padding-left:10px;
+        display:inline-block;
+        width:200px;
+    }
+
+    .layout #btn {
+        margin-top:30px;
+        margin-left:110px;
+        width:70px;
+        height:30px;
+    }

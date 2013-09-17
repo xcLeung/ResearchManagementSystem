@@ -1,0 +1,199 @@
+﻿
+    #leftside .ProjectStatu {
+        font-size: 19px; 
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left:10px;
+        color: #5e7fbc;
+    }
+
+    #leftside .PdfMaker {
+        font-size: 19px; 
+        font-weight: bold;
+        margin-top:40px;
+        margin-left:10px;
+         color: #5e7fbc;
+    }
+
+    #leftside .ProjectInfo {
+        color: #5e7fbc;
+    }
+
+
+#rightside {
+}
+
+    #rightside .Warning {
+        background-color: #edf0f1;
+        margin:20px;
+        padding: 24px;
+        width: 800px;
+    }
+
+    #rightside .Picture {
+        width: 24px;
+        height: 24px;
+        display:inline-block; 
+        margin-bottom: 5px;
+         /*margin-bottom:24px;*/        
+    }
+
+    #rightside .TitleHead {
+        margin:10px;
+
+    }
+
+    #rightside h2 {
+         /*color: #5e7fbc;*/
+         margin-left: 10px;
+         margin-bottom: 5px;
+         display:inline-block;
+      
+
+    }
+
+
+
+
+.layout {
+    margin-top:30px;
+    margin-left:200px;
+    position:relative;
+}
+
+    .layout div {
+        margin-bottom:24px;
+    }
+
+
+    .layout .Remark {
+        color:#CCC;
+        width:200px;
+        text-align:left;
+        display:inline-block;
+        position:absolute;
+         margin-left:20px;
+    }
+
+    .layout input {
+        width:245px;
+    }
+
+    .layout .InputSelect {
+        width:250px;
+    }
+
+
+    .layout textarea {
+        width:350px;
+        height:200px;
+         margin-left:135px;
+    }
+
+
+    .layout .Textlabel {
+        position:absolute;
+        margin-top:70px;    
+        display:inline-block;
+        vertical-align:middle;
+    }
+
+    .layout .TextlabelRemark {
+        position:absolute;
+        margin-left:20px;
+        margin-top:70px;
+        color:#CCC;
+        width:200px;
+        text-align:left;
+        display:inline-block;
+    }
+
+
+    .layout label {
+        width:130px;
+        display:inline-block;
+        text-align:right;
+    }
+
+    .layout textarea {
+       width:350px;
+       height:200px;
+    }
+
+    
+   
+
+    .layout #ProjectName {
+        position:absolute;
+        margin-left:20px;
+        margin-top:-25px;
+        color:#CCC;
+        width:200px;
+        display:inline-block;
+    }
+
+    .fButton {
+        margin-bottom:24px;
+    }
+
+
+    .JForm .JFormDiv{padding:0;margin:1.5em 0 0 0;}
+
+
+
+.lxcButton {
+    border-radius:3px;
+    border:1px solid #555;
+    background: #eee;
+    margin:0;
+    padding:0.2em 0.5em;
+
+}
+
+      .lxcButton:hover{
+          background: #ccc;
+      
+      }
+      .lxcButton:active{
+          background: #555;
+          color:#fff;
+      
+      }
+
+
+
+
+
+    /*以下是垃圾代码*/
+.layoutText {
+    margin-top:30px;
+    margin-left:70px;
+    position:relative;
+}
+
+    .layoutText div {
+        margin-bottom:24px;
+    }
+
+        .layoutText label {
+            position:absolute;
+            margin-left:90px;
+            margin-top:100px;         
+        }
+
+        .layoutText  .text {
+            position:absolute;
+            margin-left:155px;
+            width:350px;
+            height:200px;
+
+        }
+
+        .layoutText  input {
+            position:absolute; 
+            width:70px;
+             height:25px; 
+            margin-left:155px; 
+            margin-top:220px;
+        }
+

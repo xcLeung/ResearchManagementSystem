@@ -1,0 +1,28 @@
+.JForm{margin:0;padding:0;font-family: Tahoma,Verdana,Consolas,Monospace,"DejaVu Sans Mono",Hei,Monaco,Courier,"文泉驿等宽正黑","宋体","微软雅黑";}
+.JForm .JFormDiv{padding:0;margin:1.5em 0 0 0;}
+.JForm label{display: inline-block;width:6em;text-align:right;vertical-align: middle;}
+.JForm input[type="text"],.JForm input[type="password"]{width:10em;margin:0 0 0 0.2em;padding:0.2em;border:1px solid #ccc;width:245px;}
+.JForm input[type="text"]:hover,.JForm input[type="password"]:hover{border-color:#71d4ff;}
+.JForm input[type="text"]:focus,.JForm input[type="password"]:focus{border-color:#71d4ff;outline:none;}
+.JForm input[type="text"].success,.JForm input[type="password"].success{border-color:#6FD52B;}
+.JForm input[type="text"].error,.JForm input[type="password"].error{border-color:#FF6666;}
+.JForm textarea{margin:0 0 0 0.2em;padding:0.2em;border:1px solid #ccc;}
+.JForm textarea:hover{border-color:#71d4ff;}
+.JForm textarea:focus{border-color:#71d4ff;outline:none;}
+.JForm textarea.success{border-color:#6FD52B;}
+.JForm textarea.error{border-color:#FF6666;}
+.JForm fieldset{border-radius:3px;border:1px solid #ccc;}
+.JForm fieldset:hover{border-color:#71d4ff;}
+.JForm fieldset:focus{border-color:#71d4ff;}
+.JForm input[type="checkbox"]{}
+.JForm input[type="radio"]{margin:0 0.2em 0 0;}
+.JForm label.checkbox,.JForm label.radio{width:auto;}
+.JForm select{margin:0;border:1px solid #ccc;}
+.JForm select:hover{border-color:#71d4ff;}
+.JForm select:focus{border-color:#71d4ff;outline:none;}
+.JForm optgroup{color:#999;}
+.JForm optgroup option,.JForm option{color:#000;}
+.JForm input[type="button"],.JForm button{border-radius:3px;border:1px solid #555;background: #eee;margin:0;padding:0.2em 0.5em;}
+.JForm input[type="button"]:hover,.JForm button:hover{background: #ccc;}
+.JForm input[type="button"]:active,.JForm button:active{background: #555;color:#fff;}
+.JForm .hint{z-index:2;color:#fff;background:#FF6666;font-size: 14px;display: inline-block;position: absolute;padding:0.2em;border-radius:3px;margin-left:0.2em;}

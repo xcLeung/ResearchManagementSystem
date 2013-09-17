@@ -1,0 +1,89 @@
+﻿* {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+    a:hover {
+        color: #71d4ff;
+    }
+
+body {
+    font-size: 16px;
+    /*margin-bottom: 30px;*/
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+.header-top {
+    height: 100px;
+    width: 100%;
+    min-width:960px;
+   /* background-image: url('../img/header/assessmentheader.png'); */
+    position:relative;
+}
+
+    .header-top span {
+        font-size: 36px;
+        font-weight: bold;
+        color: #0e0e0e;
+        padding-left: 30px;
+        line-height: 70px;
+    }
+
+
+.header-nav {
+    position:relative;
+    width:100%;
+    height:65px;
+    border-bottom:2px solid #DDD;
+    z-index:1;
+    min-width: 960px;
+    background-color: #5e7fbc;
+}
+
+    .header-nav ul {
+        margin-left:20px;
+    }
+
+    .header-nav ul li {
+        float: left;
+        padding-left:30px;
+        line-height:30px;
+        margin-top:20px;
+        padding-right:30px;
+        border-left: 1px solid #fff;
+        
+    }
+        .header-nav ul li a {
+            color:#fff;
+        }
+
+        .header-nav ul li a:hover {
+             color: #f00;
+        }
+
+.body {
+        margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    min-width: 960px;
+    position:relative;
+    z-index:0;
+    /*background-color:red;*/
+    /*overflow:auto;*/
+
+}
+
+
+.footer-bottom {
+    height: 30px;
+    border-top: 1px solid #CCC;
+    width:100%;
+     text-align:center;
+     /*margin-top:50px;*/
+     padding-top:50px;
+}

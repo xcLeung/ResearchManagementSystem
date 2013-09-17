@@ -1,0 +1,66 @@
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\BLL.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\BLL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\DAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\ResearchManagementSystem\BAL\obj\Debug\BLL.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\obj\Debug\BLL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\BLL.dll
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\BLL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\DAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\BLL\bin\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\BLL\obj\Debug\BLL.dll
+F:\紫荆工作室\ResearchManagementSystem\BLL\obj\Debug\BLL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\BLL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\BLL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\obj\Debug\BLL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\BLL\obj\Debug\BLL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\BLL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\BLL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\DAL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Models.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Utility.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\DAL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Models.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Utility.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\BLL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\BLL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\BLL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\BLL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\DAL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Models.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Utility.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\DAL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Models.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\bin\Debug\Utility.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\BLL\obj\Debug\BLL.pdb

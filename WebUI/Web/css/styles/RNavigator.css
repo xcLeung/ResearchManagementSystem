@@ -1,0 +1,89 @@
+/*------------------------尺寸设置相关---------------------------*/
+/*需要按照以下的参数设置*/
+/*
+  H = 整个导航条占用的高度
+  W = 导航每个块的宽度
+*/
+.RNavigator {
+    font-size:12px;
+    height:32px; /*H*/
+}
+.RNavigator a {
+    height:32px; /*H*/
+    width:100px; /*W*/
+    line-height:32px;/*H*/
+}
+.RNavigator ul ul {
+    top:32px; /*H*/
+}
+.RNavigator .third{
+    left:100px;/*W*/
+}
+
+
+/*------------------------颜色设置相关---------------------------*/
+/*主导航栏的字颜色和背景颜色*/
+.RNavigator a {
+    color:#333;
+    background: #00FFFF;
+}
+.RNavigator a:hover {
+    background:#333;
+    color:#fff;
+}
+/*二级子菜单字颜色和背景颜色*/
+.RNavigator ul ul a{
+    background: #0066CC;
+    color:#fff;
+}
+.RNavigator ul ul a:hover{
+    background: #265226;
+}
+/*三级子菜单字颜色和背景颜色*/
+.RNavigator ul ul ul a{
+    background: #7f0055;
+    color:#fff;
+}
+.RNavigator ul ul ul a:hover{
+    background:#B45B3E;
+}
+/*------------------------无需设置的---------------------------*/
+
+.RNavigator li {/*水平菜单*/
+    float:left;
+    list-style: none;
+    position:relative;
+}
+.RNavigator a {
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    overflow:hidden;/*IE6下高度异常问题*/
+}
+
+.RNavigator ul ul {
+    visibility:hidden; /*这里不用display:none;是因为IE6无法切换span的display状态*/
+    position:absolute;
+    left:0;
+}
+
+.RNavigator ul ul li{ /*所有非第一级菜单垂直显示*/
+    clear:both; /*垂直显示*/
+    text-align: left;
+}
+
+.RNavigator ul a:hover ul.second/*IE6*/,
+.RNavigator ul li:hover ul.second/*非IE6*/{
+    visibility: visible; /*这里不用display:none;是因为IE6无法切换span的display状态*/
+}
+
+.RNavigator .third{
+    top:0;/*重设子菜单相对于包含块哪个位置出现*/
+}
+/*指定是显示三级子菜单*/
+.RNavigator ul ul li:hover ul.third/*非IE6*/,
+.RNavigator ul ul a:hover ul.third/*IE6*/{
+    visibility:visible;
+}
+
+

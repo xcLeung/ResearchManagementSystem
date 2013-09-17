@@ -1,0 +1,147 @@
+.RButtonGroup{
+    font-family: Arial,"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.0em;
+    width: 100%;
+}
+.RButtonGroup fieldset{
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-left: 2px;
+}
+.RButtonGroup button.RButton{
+    border:1px solid #ccc;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border-bottom-color: #b3b3b3;
+    -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    padding: 3px 0;      /*左右padding视width而定*/
+    line-height: 15px;   /*line-height=height不能使按钮文字垂直居中*/
+    height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    width: 65px;
+}
+.RButtonGroup input[type="text"]{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 6px;
+    /*margin: 0;*/
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 145px;
+
+}
+/*.RButtonGroup input[type="text"]:hover{*/
+    /*border-color:  #71d4ff;*/
+/*}*/
+.RButtonGroup div.btn1,.RButtonGroup div.btn2,.RButtonGroup div.btn3{
+     margin: 10px 1px;
+ }
+
+.RButtonGroup button.RButton:hover {
+    background-color: #bcf4f7;
+
+}
+/*==================btn2========================*/
+.RButtonGroup button.RButton_span{
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    padding: 4px 6px;
+    display: inline-block;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+
+
+
+}
+.RButtonGroup input[type="text"].RButton_input{
+    display: inline;
+    float: left;             /*解决IE7下文本框与按钮无边距,IE10下有边距问题和使两个按钮分别于对应文本框对齐*/
+
+}
+.RButtonGroup .RButton_input{            /*仅对IE6有效!独立写一个类解决IE6下高度不一,垂直对齐等问题*/
+    height: 24px;      /*在这里修改height,IE6以上均无效,仅在IE6里有变化*/
+    line-height: 24px;/*line-height=height在IE6有变化,其他浏览器无变化*/
+    float: left;
+    display: inline;
+}
+.RButtonGroup button.RButton_span{
+
+    _margin-left: -3px;     /*针对IE6写的3pxBUG处理*/
+}
+
+/*====================btn3=========================*/
+.RButtonGroup div.btn3{ /*设置position为relative,使ul float在右部,覆盖文本*/
+    display: inline-block;
+    width: 250px;
+    position: relative;
+}
+.RButtonGroup button.RButton_span_select{
+    position: relative;       /*使三角图片相对button而定位*/
+    width: 72px;
+   padding-right: 15px;
+
+}
+.RButtonGroup button>span.caret{ /*加上button>使得三角效果不出现在IE6上*/
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 4px solid #000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+    position: absolute;
+    top:12px;      /*位置相对button改变,位于button文本的右边*/
+    right:4px;     /*chrome默认居中,所以需加上right值*/
+}
+.RButtonGroup ul.select_menu{
+    padding: 5px 0;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    width: 160px;
+    text-align: center;
+    position: absolute;
+    right: -70px;
+    top: 30px;
+    background-color: #fff;
+    _right:-67px;                    /*针对IE6写的3pxBUG处理*/
+}
+.RButtonGroup li{
+    display: list-item;
+    margin: 2px 0;
+    border: 1px solid #fff;
+}
+.RButtonGroup li:hover{
+    background-color: #bcf4f7;
+}
+

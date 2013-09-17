@@ -1,0 +1,133 @@
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\ResearchManagementSystem.dll
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\ResearchManagementSystem.pdb
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\BLL.dll
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\BLL.pdb
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\bin\DAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\obj\Debug\ResearchManagementSystem.dll
+F:\紫荆工作室\ResearchManagementSystem\ResearchManagementSystem\obj\Debug\ResearchManagementSystem.pdb
+F:\紫荆工作室\ResearchManagementSystem\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.pdb
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\BLL.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\BLL.pdb
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\DAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\BLL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\BLL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\BLL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\Models.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\Utility.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\DAL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\BLL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\Models.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\Utility.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\bin\DAL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\itextsharp.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\System.Web.Http.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\System.Web.Http.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.xml
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\System.Web.Http.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.dll
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.xml
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.xml
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\System.Web.Http.xml
+F:\紫荆工作室\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\BLL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\itextsharp.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\BLL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\BLL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Models.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Utility.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\DAL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\BLL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Models.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Utility.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.xml
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.xml
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.xml
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.xml
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\DAL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\ResearchManagementSystem.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\BLL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Models.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Utility.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\DAL.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\BLL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Models.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Utility.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\Newtonsoft.Json.xml
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Net.Http.Formatting.xml
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.xml
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\System.Web.Http.WebHost.xml
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\bin\DAL.pdb
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.dll
+F:\紫荆工作室\开发中\ResearchManagementSystem\ResearchManagementSystem\WebUI\obj\Debug\ResearchManagementSystem.pdb

@@ -1,0 +1,58 @@
+.RTabs {
+    width: 500px;
+    /*colors*/
+    background: #fff;
+
+}
+
+.RTabs ul.tabs {
+    width: 100%;
+    height: 33px;
+    /*colors*/
+    border-bottom: 1px solid #555;
+    background: #eee;
+}
+
+.RTabs ul.tabs li.tab {
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*colors*/
+    background: #ccc;
+    border-top: 1px solid #555;
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    border-bottom: 1px solid none;
+}
+
+.RTabs ul.tabs li.tab:hover {
+   background: #ddd;
+}
+
+.RTabs ul.tabs li.tabActived {
+    /*colors*/
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+.RTabs ul.tabs li.tabActived:hover {
+    /*colors*/
+    background: #fff;
+}
+.RTabs ul.tabs li.tab a {
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+    /*colors*/
+    color:#333;
+}
+
+.RTabs ul.blocks li.block {
+   height:200px;/*这个高度应该通过js设置，由用户设定高度为h，那么这里的高度应该是(h-33)px*/
+   overflow-y: auto;
+   padding:10px;
+}

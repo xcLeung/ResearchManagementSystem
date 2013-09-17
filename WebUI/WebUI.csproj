@@ -1,0 +1,1293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{185FA520-D20D-41EF-A190-C61DD0B516D0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ResearchManagementSystem</RootNamespace>
+    <AssemblyName>ResearchManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>E:\Project\项目\ResearchManagementSystem\Utility\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Administrator\Create.aspx" />
+    <Content Include="Admin\Administrator\Default.aspx" />
+    <Content Include="Admin\Administrator\Edit.aspx" />
+    <Content Include="Admin\css\Administrator.css" />
+    <Content Include="Admin\css\Form.css" />
+    <Content Include="Admin\css\list.css" />
+    <Content Include="Admin\css\login.css" />
+    <Content Include="Admin\css\Master.css" />
+    <Content Include="Admin\css\MoreProjectInfo.css" />
+    <Content Include="Admin\css\projectresult.css" />
+    <Content Include="Admin\CupProjectModel\Default.aspx" />
+    <Content Include="Admin\CupProjectModel\MoreProjectInfo.aspx" />
+    <Content Include="Admin\CupProjectModel\ProjectResult.aspx" />
+    <Content Include="Admin\img\bg.png" />
+    <Content Include="Admin\img\headpic.png" />
+    <Content Include="Admin\img\screen1.png" />
+    <Content Include="Admin\img\screen2.png" />
+    <Content Include="Admin\img\title.png" />
+    <Content Include="Admin\InnovationProjectModel\Default.aspx" />
+    <Content Include="Admin\InnovationProjectModel\MoreProjectInfo.aspx" />
+    <Content Include="Admin\js\jquery-1.9.1.js" />
+    <Content Include="Admin\js\jquery-1.9.1.min.js" />
+    <Content Include="Admin\js\jquery-migrate-1.1.1.js" />
+    <Content Include="Admin\js\uploadify.upload.material.js" />
+    <Content Include="Admin\Judge\Create.aspx" />
+    <Content Include="Admin\Judge\Default.aspx" />
+    <Content Include="Admin\Judge\Edit.aspx" />
+    <Content Include="Admin\Judge\More.aspx" />
+    <Content Include="Admin\Match\Create.aspx" />
+    <Content Include="Admin\Match\Default.aspx" />
+    <Content Include="Admin\Match\Edit.aspx" />
+    <Content Include="Admin\Match\More.aspx" />
+    <Content Include="Admin\Student\Default.aspx" />
+    <Content Include="Admin\Student\List.aspx" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\changelog.txt" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\ckfinder.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\ckfinder.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\ckfinder_v1.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\config.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\install.txt" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\lang\en.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\lang\zh-cn.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\lang\zh-tw.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\lang\_translationstatus.txt" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\license.txt" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\lib\codemirror.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\lib\codemirror.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\mode\clike\clike.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\mode\css\css.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\mode\htmlmixed\htmlmixed.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\mode\javascript\javascript.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\mode\php\php.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\mode\xml\xml.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\plugin.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\flashupload\flash\Uploader.swf" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\flashupload\Uploader.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\imageresize\images\mini.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\imageresize\plugin.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\zip\images\zip.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\app.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\host.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\ckffolder.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\ckffolderopened.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\ckfminus.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\ckfnothumb.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\ckfplus.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons.png" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\ai.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\avi.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\bmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\cs.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\default.icon.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\dll.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\doc.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\docx.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\exe.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\fla.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\gif.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\jpg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\js.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\mdb.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\mp3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\ogg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\pdf.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\ppt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\pptx.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\rdp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\swf.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\swt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\txt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\vsd.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\xls.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\xlsx.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\xml.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\16\zip.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\ai.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\avi.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\bmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\cs.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\default.icon.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\dll.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\doc.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\docx.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\exe.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\fla.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\gif.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\jpg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\js.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\mdb.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\mp3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\ogg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\ogg.png" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\pdf.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\ppt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\pptx.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\rdp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\swf.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\swt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\txt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\vsd.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\xls.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\xlsx.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\xml.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\icons\32\zip.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\loaders\16x16.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\loaders\32x32.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\spacer.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\sprites.png" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\sprites_ie6.png" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\add.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\clear_basket.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\delete.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\download.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\help.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\maximize.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\refresh.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\settings.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\images\toolbar\view.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\richcombo.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\skin.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\skins\kama\uipanel.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\translations.txt" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\upload.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\common.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo01.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo02.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo03.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo04.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo05.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo06.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo07.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo08.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo09.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo10.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo11.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo12.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo13.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\demo14.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\googlemap\googlemap.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\googlemap\googlemap.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\googlemap\map.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\img\plugin.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\img\tabbgl.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\img\tabbgr.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\img\xheditor.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\img\xheditorbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\index.html" />
+    <Content Include="Admin\xheditor-1.2.1\demos\mediaplayer\flv.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\mediaplayer\player.swf" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\code.gif" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-apollo.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-hs.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-lisp.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-lua.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-ml.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-proto.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-scala.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-sql.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-vhdl.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-wiki.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\lang-yaml.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\prettify.css" />
+    <Content Include="Admin\xheditor-1.2.1\demos\prettify\prettify.js" />
+    <Content Include="Admin\xheditor-1.2.1\demos\saveremoteimg.asp" />
+    <Content Include="Admin\xheditor-1.2.1\demos\saveremoteimg.aspx" />
+    <Content Include="Admin\xheditor-1.2.1\demos\showubb.asp" />
+    <Content Include="Admin\xheditor-1.2.1\demos\test.swf" />
+    <Content Include="Admin\xheditor-1.2.1\demos\upload.asp" />
+    <Content Include="Admin\xheditor-1.2.1\demos\upload.aspx" />
+    <Content Include="Admin\xheditor-1.2.1\demos\uptest.html" />
+    <Content Include="Admin\xheditor-1.2.1\jquery\jquery-1.4.4.min.js" />
+    <Content Include="Admin\xheditor-1.2.1\jquery\jquery-1.4.4.src.js" />
+    <Content Include="Admin\xheditor-1.2.1\LGPL-LICENSE.txt" />
+    <Content Include="Admin\xheditor-1.2.1\serverscript\asp\ubb2html.asp" />
+    <Content Include="Admin\xheditor-1.2.1\wizard.html" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor-1.2.1.min.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\angry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\awkward.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\bye.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\config.txt" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\crazy.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\cry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\curse.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\cute.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\despise.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\doubt.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\envy.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\fastcry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\knock.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\laugh.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\mad.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\ohmy.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\panic.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\proud.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\quiet.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\sad.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\shutup.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\shy.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\sleep.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\smile.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\struggle.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\titter.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\tongue.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\wail.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\default\wronged.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\alien.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\angel.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\angry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\bandit.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\biglaugh.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\blink.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\blush.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\config.txt" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\cool.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\cry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\depres.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\devil.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\glare.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\heart.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\joyful.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\kiss.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\laugh.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\magician.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\ninja.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\pinch.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\police.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\sad.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\sick.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\sideways.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\sleep.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\smile.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\surprised.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\tongue.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\unsure.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\w00t.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\whistling.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\wondering.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\ipb\wub.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\10.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\11.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\12.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\13.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\14.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\15.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\16.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\17.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\18.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\19.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\20.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\21.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\22.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\23.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\24.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\25.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\26.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\27.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\28.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\29.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\30.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\31.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\32.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\33.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\34.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\35.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\36.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\37.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\38.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\39.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\4.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\40.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\5.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\6.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\7.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\8.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\msn\9.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\angry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\bad.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\blush.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\brokenheart.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\bye.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\coffee.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\config.txt" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\cool.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\cry.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\curse.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\cute.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\devil.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\envy.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\gift.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\good.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\kiss.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\laugh.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\love.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\music.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\question.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\rose.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\sad.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\shocked.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\shout.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\sick.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\sleepy.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\smile.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\soccer.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\sweat.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\tired.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\tongue.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\victory.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_emot\pidgin\wink.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_lang\en.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_lang\zh-cn.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_lang\zh-tw.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\html2markdown.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\htmldomparser.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\add.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\bg1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\bg2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\btnbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\btnbgr.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\clear.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\progressbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\img\start.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\multiupload.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\multiupload.html" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\multiupload.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\swfupload\swfupload.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\multiupload\swfupload\swfupload.swf" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\showdown.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_plugins\ubb.js" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\blank.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\iframe.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\anchor.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\close.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\flash.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\icons.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\loading.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\progress.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\progressbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-address.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-div.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-h1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-h2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-h3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-h4.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-h5.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-h6.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-p.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\tag-pre.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\waiting.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\wmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\img\wordimg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\default\ui.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\iframe.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\anchor.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\close.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\flash.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\icons.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\loading.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\progress.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\progressbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-address.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-div.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-h1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-h2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-h3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-h4.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-h5.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-h6.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-p.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\tag-pre.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\waiting.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\wmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\img\wordimg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\nostyle\ui.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\iframe.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\anchor.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\buttonbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\close.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\flash.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\icons.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\loading.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\progress.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\progressbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-address.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-div.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-h1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-h2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-h3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-h4.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-h5.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-h6.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-p.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\tag-pre.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\waiting.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\wmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\img\wordimg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007blue\ui.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\iframe.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\anchor.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\buttonbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\close.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\flash.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\icons.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\loading.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\progress.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\progressbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-address.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-div.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-h1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-h2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-h3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-h4.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-h5.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-h6.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-p.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\tag-pre.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\waiting.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\wmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\img\wordimg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\o2007silver\ui.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\iframe.css" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\anchor.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\buttonbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\close.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\flash.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\icons.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\loading.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\progress.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\progressbg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-address.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-div.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-h1.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-h2.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-h3.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-h4.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-h5.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-h6.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-p.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\tag-pre.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\titlebg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\waiting.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\wmp.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\img\wordimg.gif" />
+    <Content Include="Admin\xheditor-1.2.1\xheditor_skin\vista\ui.css" />
+    <Content Include="Web\css\checkrecord.css" />
+    <Content Include="Web\css\InfoContent.css" />
+    <Content Include="Web\css\intro.css" />
+    <Content Include="Web\css\leftrightside.css" />
+    <Content Include="Web\css\list.css" />
+    <Content Include="Web\css\Master.css" />
+    <Content Include="Web\css\myworks.css" />
+    <Content Include="Web\css\projectinfo.css" />
+    <Content Include="Web\css\ProjectScore.css" />
+    <Content Include="Web\css\Register.css" />
+    <Content Include="Web\css\styles\960_16_col.css" />
+    <Content Include="Web\css\styles\cssReset.css" />
+    <Content Include="Web\css\styles\documation.css" />
+    <Content Include="Web\css\styles\JForm.css" />
+    <Content Include="Web\css\styles\login.css" />
+    <Content Include="Web\css\styles\RButton.css" />
+    <Content Include="Web\css\styles\RForm.css" />
+    <Content Include="Web\css\styles\RNavigator.css" />
+    <Content Include="Web\css\styles\RPagination.css" />
+    <Content Include="Web\css\styles\RPicSlider.css" />
+    <Content Include="Web\css\styles\RTable.css" />
+    <Content Include="Web\css\styles\RTabs.css" />
+    <Content Include="Web\css\styles\tt_button.css" />
+    <Content Include="Web\CupProjectModel\CupInfoEdit\DeclarantInfo.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoEdit\PdfMaker.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoEdit\RecommendInfo.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoEdit\TeamMemberInfo.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoEdit\WorkInfo.aspx" />
+    <Content Include="Web\Default.aspx" />
+    <Content Include="Web\img\1.png" />
+    <Content Include="Web\img\arrow-left.png" />
+    <Content Include="Web\img\bg.png" />
+    <Content Include="Web\img\btn.png" />
+    <Content Include="Web\img\btn1.png" />
+    <Content Include="Web\img\btn2.png" />
+    <Content Include="Web\img\btn3.png" />
+    <Content Include="Web\img\correct.png" />
+    <Content Include="Web\img\details.png" />
+    <Content Include="Web\img\edit.png" />
+    <Content Include="Web\img\headpic.png" />
+    <Content Include="Web\img\plus-alt.png" />
+    <Content Include="Web\img\remove.png" />
+    <Content Include="Web\img\scau.jpg" />
+    <Content Include="Web\img\screen1.png" />
+    <Content Include="Web\img\screen2.png" />
+    <Content Include="Web\img\title.png" />
+    <Content Include="Web\img\wrong.png" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\DeclarantInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\Default.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\PdfMaker.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\RecommendInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\Remark.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\TeamMemberInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\WorkInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelEdit\DeclarantInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelEdit\PdfMaker.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelEdit\RecommendInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelEdit\TeamMemberInfo.aspx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelEdit\WorkInfo.aspx" />
+    <Content Include="Web\js\jquery-1.9.1.js" />
+    <Content Include="Web\js\jquery-1.9.1.min.js" />
+    <Content Include="Web\js\jquery-migrate-1.1.1.js" />
+    <Content Include="Web\js\scripts\CompomentsModel.js" />
+    <Content Include="Web\js\scripts\JForm.js" />
+    <Content Include="Web\js\scripts\jquery.1.9.0.min.js" />
+    <Content Include="Web\js\scripts\RDatePicker.js" />
+    <Content Include="Web\js\scripts\RPagination.js" />
+    <Content Include="Web\js\scripts\RPicSlider.js" />
+    <Content Include="Web\js\scripts\RTabs.js" />
+    <Content Include="Web\js\scripts\tt_button.js" />
+    <Content Include="Web\js\uploadify.upload.material.js" />
+    <Content Include="Web\Judge\Default.aspx" />
+    <Content Include="Web\Judge\Match\Default.aspx" />
+    <Content Include="Web\Judge\Match\ScoreIntro.aspx" />
+    <Content Include="Web\Judge\ProjectScore\Default.aspx" />
+    <Content Include="Web\Judge\Project\Default.aspx" />
+    <Content Include="Web\Login\Default.aspx" />
+    <Content Include="Web\Login\Register.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Web\Match\Default.aspx" />
+    <Content Include="Web\MyWorks\Default.aspx" />
+    <Content Include="Web\MyWorks\Maker.aspx" />
+    <Content Include="Web\ProjectCheck\Default.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\DeclarantInfo.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\Default.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\PdfMaker.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\RecommendInfo.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\Remark.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\TeamMemberInfo.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\UploadPaper.aspx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\WorkInfo.aspx" />
+    <Content Include="Web\Shells\SWFTools\as3compile.exe" />
+    <Content Include="Web\Shells\SWFTools\font2swf.exe" />
+    <Content Include="Web\Shells\SWFTools\gif2swf.exe" />
+    <Content Include="Web\Shells\SWFTools\jpeg2swf.exe" />
+    <Content Include="Web\Shells\SWFTools\pdf2swf.exe" />
+    <Content Include="Web\Shells\SWFTools\pdf2swf_gui.exe" />
+    <Content Include="Web\Shells\SWFTools\pdf2swf_gui.ico" />
+    <Content Include="Web\Shells\SWFTools\png2swf.exe" />
+    <Content Include="Web\Shells\SWFTools\python24\gfx.dll" />
+    <Content Include="Web\Shells\SWFTools\rfxview.swf" />
+    <Content Include="Web\Shells\SWFTools\swfbbox.exe" />
+    <Content Include="Web\Shells\SWFTools\swfc.exe" />
+    <Content Include="Web\Shells\SWFTools\swfcombine.exe" />
+    <Content Include="Web\Shells\SWFTools\swfdump.exe" />
+    <Content Include="Web\Shells\SWFTools\swfextract.exe" />
+    <Content Include="Web\Shells\SWFTools\swfrender.exe" />
+    <Content Include="Web\Shells\SWFTools\swfstrings.exe" />
+    <Content Include="Web\Shells\SWFTools\swfs\default_loader.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\default_viewer.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\keyboard_viewer.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\PreLoaderTemplate.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\rfxview.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\simple_viewer.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\swft_loader.swf" />
+    <Content Include="Web\Shells\SWFTools\swfs\tessel_loader.swf" />
+    <Content Include="Web\Shells\SWFTools\uninstall.exe" />
+    <Content Include="Web\Shells\SWFTools\wav2swf.exe" />
+    <Content Include="Web\Student\Default.aspx" />
+    <Content Include="Web\uploadify\jquery.uploadify.js" />
+    <Content Include="Web\uploadify\uploadify.css" />
+    <Content Include="Web\uploadify\uploadify.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Administrator\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Administrator\Create.aspx.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Administrator\Create.aspx.designer.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Administrator\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Administrator\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Administrator\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Administrator\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\MoreProjectInfo.aspx.cs">
+      <DependentUpon>MoreProjectInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\MoreProjectInfo.aspx.designer.cs">
+      <DependentUpon>MoreProjectInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\ProjectResult.aspx.cs">
+      <DependentUpon>ProjectResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CupProjectModel\ProjectResult.aspx.designer.cs">
+      <DependentUpon>ProjectResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\InnovationProjectModel\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\InnovationProjectModel\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\InnovationProjectModel\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\InnovationProjectModel\MoreProjectInfo.aspx.cs">
+      <DependentUpon>MoreProjectInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\InnovationProjectModel\MoreProjectInfo.aspx.designer.cs">
+      <DependentUpon>MoreProjectInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Judge\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Judge\Create.aspx.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Judge\Create.aspx.designer.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Judge\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Judge\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Judge\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Judge\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Judge\More.aspx.cs">
+      <DependentUpon>More.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Judge\More.aspx.designer.cs">
+      <DependentUpon>More.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Match\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Match\Create.aspx.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Match\Create.aspx.designer.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Match\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Match\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Match\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Match\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Match\More.aspx.cs">
+      <DependentUpon>More.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Match\More.aspx.designer.cs">
+      <DependentUpon>More.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Student\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Student\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Student\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Student\List.aspx.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Student\List.aspx.designer.cs">
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\AjaxUpload_Material.ashx.cs">
+      <DependentUpon>AjaxUpload_Material.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\DeclarantInfo.aspx.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\DeclarantInfo.aspx.designer.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\PdfMaker.aspx.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\PdfMaker.aspx.designer.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\RecommendInfo.aspx.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\RecommendInfo.aspx.designer.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\TeamMemberInfo.aspx.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\TeamMemberInfo.aspx.designer.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\WorkInfo.aspx.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoEdit\WorkInfo.aspx.designer.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\DeclarantInfo.aspx.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\DeclarantInfo.aspx.designer.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\PdfMaker.aspx.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\PdfMaker.aspx.designer.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\RecommendInfo.aspx.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\RecommendInfo.aspx.designer.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\Remark.aspx.cs">
+      <DependentUpon>Remark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\Remark.aspx.designer.cs">
+      <DependentUpon>Remark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\TeamMemberInfo.aspx.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\TeamMemberInfo.aspx.designer.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\WorkInfo.aspx.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelCreate\WorkInfo.aspx.designer.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\DeclarantInfo.aspx.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\DeclarantInfo.aspx.designer.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\PdfMaker.aspx.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\PdfMaker.aspx.designer.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\RecommendInfo.aspx.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\RecommendInfo.aspx.designer.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\TeamMemberInfo.aspx.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\TeamMemberInfo.aspx.designer.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\WorkInfo.aspx.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\InnovationProjectModel\InnovationProjectModelEdit\WorkInfo.aspx.designer.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Judge\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Judge\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\Match\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Judge\Match\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\Match\ScoreIntro.aspx.cs">
+      <DependentUpon>ScoreIntro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Judge\Match\ScoreIntro.aspx.designer.cs">
+      <DependentUpon>ScoreIntro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\ProjectScore\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\ProjectScore\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Judge\ProjectScore\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Judge\Project\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Judge\Project\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Login\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Login\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Login\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Login\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Login\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Match\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Match\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MyWorks\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MyWorks\CupProjectModelPDF.cs" />
+    <Compile Include="Web\MyWorks\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MyWorks\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MyWorks\InnovationProjectModelPDF.cs" />
+    <Compile Include="Web\MyWorks\Maker.aspx.cs">
+      <DependentUpon>Maker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\MyWorks\Maker.aspx.designer.cs">
+      <DependentUpon>Maker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\ProjectCheck\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\ProjectCheck\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\DeclarantInfo.aspx.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\DeclarantInfo.aspx.designer.cs">
+      <DependentUpon>DeclarantInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\PdfMaker.aspx.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\PdfMaker.aspx.designer.cs">
+      <DependentUpon>PdfMaker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\RecommendInfo.aspx.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\RecommendInfo.aspx.designer.cs">
+      <DependentUpon>RecommendInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\Remark.aspx.cs">
+      <DependentUpon>Remark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\Remark.aspx.designer.cs">
+      <DependentUpon>Remark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\TeamMemberInfo.aspx.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\TeamMemberInfo.aspx.designer.cs">
+      <DependentUpon>TeamMemberInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\UploadPaper.aspx.cs">
+      <DependentUpon>UploadPaper.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\UploadPaper.aspx.designer.cs">
+      <DependentUpon>UploadPaper.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\WorkInfo.aspx.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\CupProjectModel\CupInfoCreate\WorkInfo.aspx.designer.cs">
+      <DependentUpon>WorkInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Student\AjaxAction.ashx.cs">
+      <DependentUpon>AjaxAction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Student\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web\Student\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web\Master.Master" />
+    <Content Include="Admin\Master.Master" />
+    <Content Include="Admin\Administrator\AjaxAction.ashx" />
+    <Content Include="Admin\Match\AjaxAction.ashx" />
+    <Content Include="Admin\xheditor-1.2.1\CHANGE.md" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\ckfinder.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\config.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\ckfinder_php5.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\connector.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\constants.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\lang\en.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\lang\zh-cn.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\lang\zh-tw.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\CommandHandlerBase.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\CopyFiles.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\CreateFolder.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\DeleteFiles.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\DeleteFolder.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\DownloadFile.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\FileUpload.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\GetFiles.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\GetFolders.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\Init.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\LoadCookies.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\MoveFiles.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\QuickUpload.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\RenameFile.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\RenameFolder.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\Thumbnail.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\CommandHandler\XmlCommandHandlerBase.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\AccessControlConfig.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\Config.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\Connector.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\Factory.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\FolderHandler.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\Hooks.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\ImagesConfig.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\Registry.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\ResourceTypeConfig.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\ThumbnailsConfig.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Core\Xml.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\ErrorHandler\Base.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\ErrorHandler\FileUpload.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\ErrorHandler\Http.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\ErrorHandler\QuickUpload.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Utils\FileSystem.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Utils\Misc.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Utils\Security.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\core\connector\php\php5\Utils\XmlNode.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\codemirror\LICENSE" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\fileeditor\plugin.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\imageresize\plugin.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\ckfinder\plugins\zip\plugin.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\saveremoteimg.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\show.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\showplugin.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\showubb.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\upload.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\uploadattach.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\uploadembed.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\uploadgui.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\uploadguiupload.php" />
+    <Content Include="Admin\xheditor-1.2.1\demos\uploadthumb.php" />
+    <Content Include="Admin\xheditor-1.2.1\README.md" />
+    <Content Include="Admin\xheditor-1.2.1\serverscript\php\ubb2html.php" />
+    <Content Include="Admin\xheditor-1.2.1\THANKS.md" />
+    <Content Include="Admin\xheditor-1.2.1\TODO.md" />
+    <Content Include="Admin\CupProjectModel\AjaxAction.ashx" />
+    <Content Include="Admin\Student\AjaxAction.ashx" />
+    <Content Include="Admin\InnovationProjectModel\AjaxAction.ashx" />
+    <Content Include="Admin\Judge\AjaxAction.ashx" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web\Login\AjaxAction.ashx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\AjaxUpload_Material.ashx" />
+    <Content Include="Web\CupProjectModel\CupInfoCreate\AjaxAction.ashx" />
+    <Content Include="Web\CupProjectModel\CupInfoEdit\AjaxAction.ashx" />
+    <Content Include="Web\Judge\Master.Master" />
+    <Content Include="Web\Shells\SWFTools\python25\gfx.pyd" />
+    <Content Include="Web\Shells\SWFTools\python26\gfx.pyd" />
+    <Content Include="Web\Shells\SWFTools\uninstall.ini" />
+    <Content Include="Web\upload\Material\挑战杯\PaperDoc\4002.pdf" />
+    <Content Include="Web\Judge\ProjectScore\AjaxAction.ashx" />
+    <Content Include="Web\MyWorks\AjaxAction.ashx" />
+    <Content Include="Web\Judge\AjaxAction.ashx" />
+    <Content Include="Web\Student\AjaxAction.ashx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelCreate\AjaxAction.ashx" />
+    <Content Include="Web\InnovationProjectModel\InnovationProjectModelEdit\AjaxAction.ashx" />
+    <Content Include="Web\MyWorks\Fonts\simhei.ttf" />
+    <Content Include="Web\MyWorks\Fonts\SIMLI.TTF" />
+    <Content Include="Web\MyWorks\Fonts\simsun.ttc" />
+    <Content Include="Web\MyWorks\Fonts\STZHONGS.TTF" />
+    <Content Include="Web\MyWorks\Fonts\times.ttf" />
+    <Content Include="Web\MyWorks\Fonts\仿宋_GB2312.ttf" />
+    <Content Include="Web\MyWorks\Fonts\楷体_GB2312.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Web\PDF\" />
+    <Folder Include="Web\Shells\SWF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{8035b498-078b-4ceb-8f01-dfb2e509bbf6}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\Models.csproj">
+      <Project>{1662a65b-b0c5-4221-8988-e438171747db}</Project>
+      <Name>Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{9edfbb55-b982-4e8d-9fc0-3bd232e842f8}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:18287/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

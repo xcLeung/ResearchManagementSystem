@@ -1,0 +1,28 @@
+F:\紫荆工作室\ResearchManagementSystem\Models\bin\Debug\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\Models\bin\Debug\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\Models\bin\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\Models\bin\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\ResearchManagementSystem\Models\obj\Debug\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\Models\obj\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\bin\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\bin\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\obj\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Models\obj\Debug\Models.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Models.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Models.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Utility.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Utility.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\obj\Debug\Models.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\Models\obj\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\obj\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\Models\obj\Debug\Models.pdb

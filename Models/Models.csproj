@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1662A65B-B0C5-4221-8988-E438171747DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB\AdminModel.cs" />
+    <Compile Include="DB\CheckRecord.cs" />
+    <Compile Include="DB\CupDeclarantInfo.cs" />
+    <Compile Include="DB\CupProjectModel.cs" />
+    <Compile Include="DB\CupTeamMemberInfo.cs" />
+    <Compile Include="DB\CupWorksInfo.cs" />
+    <Compile Include="DB\CupWorksInvention.cs" />
+    <Compile Include="DB\CupWorksSurvey.cs" />
+    <Compile Include="DB\InnovationDeclarantInfo.cs" />
+    <Compile Include="DB\InnovationProjectModel.cs" />
+    <Compile Include="DB\InnovationTeamMember.cs" />
+    <Compile Include="DB\InnovationWorksInfo.cs" />
+    <Compile Include="DB\JudgeInfoModel.cs" />
+    <Compile Include="DB\Match.cs" />
+    <Compile Include="DB\MatchJuryRelation.cs" />
+    <Compile Include="DB\MatchModel.cs" />
+    <Compile Include="DB\ProjectScore.cs" />
+    <Compile Include="DB\RecommendedInfo.cs" />
+    <Compile Include="DB\Role.cs" />
+    <Compile Include="DB\RoleInfoModel.cs" />
+    <Compile Include="DB\StudentInfoModel.cs" />
+    <Compile Include="DB\TutorInfo.cs" />
+    <Compile Include="DB\User.cs" />
+    <Compile Include="FB\MatchAndJudge.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{9edfbb55-b982-4e8d-9fc0-3bd232e842f8}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

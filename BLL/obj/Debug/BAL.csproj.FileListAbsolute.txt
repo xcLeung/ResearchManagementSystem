@@ -1,0 +1,11 @@
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\BAL.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\BAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\obj\Debug\BAL.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\obj\Debug\BAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\DAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\bin\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache

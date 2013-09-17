@@ -1,0 +1,18 @@
+.documation p{
+    line-height: 2em;
+}
+.documation h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.documation h2{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.documation ul{
+    list-style-type: circle;
+    margin-left:2em;
+}
+.documation ul li{
+    line-height: 1.5em;
+}

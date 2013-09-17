@@ -1,0 +1,37 @@
+﻿* {
+    margin:0;
+    list-style:none;
+    padding:0;
+}
+
+#leftside {
+    width:160px;
+    float:left;
+    overflow:auto;
+    height: 450px;
+    /*border-right: 1px solid  #e0e0e0;*/
+     
+     background-image: url('../img/bg.png');
+}
+
+    #leftside .ProjectStatu {
+        font-size: 24px;
+       
+    }
+
+    #leftside ul {
+        
+        margin-top:15px;
+        line-height:30px;
+        margin-left:10px;
+    }
+
+#rightside {
+    margin-left:161px;
+    background:#FFF;
+    /*height:auto;*/
+   /*overflow:auto;*/
+    min-height: 500px;
+     border-left: 1px solid  #e0e0e0;
+     background-image: url('../img/bg.png');
+}

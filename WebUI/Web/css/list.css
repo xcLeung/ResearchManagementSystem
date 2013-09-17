@@ -1,0 +1,195 @@
+﻿* {
+    list-style:none;
+}
+
+body {
+    font-size: 16px;
+    /*background-image: url('../img/bg.png');*/
+    margin-bottom: 30px;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-decoration:none;
+    color:#000;
+}
+
+    p:hover {
+        color:#f00;
+        cursor:pointer;
+    }
+
+
+.WorkP {
+    display:inline-block;
+    float:left;
+     margin-right:12px;
+}
+
+.WorkP2 {
+    float:left;
+    margin-right:12px;
+    display:inline-block;
+}
+
+
+
+
+.ListContent {
+    min-height:500px;
+    margin-bottom:80px;
+}
+
+    .ListContent .ListTitle {
+        margin:50px;
+        color:#5e7fbc;
+        padding-bottom:20px;
+        border-bottom: 1px dashed #CCC;
+    }
+
+    .ListContent .layout {
+        padding-left:130px;
+        width:100%;
+    }
+
+    .ListContent .Warning {
+        font-weight:bold; font-size:18px;
+        background-color: #edf0f1;
+        margin:20px;
+        margin-left:200px;
+        margin-bottom:60px;
+        padding: 24px;
+        width: 800px;
+    }
+
+.LxcTable {
+      width:1000px;  
+      /*height:400px;*/
+}
+
+    .LxcTable th,.LxcTable td{
+        font-size: 1em;
+        /*font-weight: normal;*/
+        border:1px solid #b9c9d0;
+        /*padding: 3px 57px 2px 17px;*/
+        text-align: center;
+    }
+
+    
+
+            
+    .LxcTable th{
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color: #5e7fbc;
+        color:#fff;
+        text-align:center;
+        outline:1px solid #e0e0e0;
+    
+    }
+    
+    
+    .LxcTable  td {
+       outline:1px solid #e0e0e0;
+       padding:3px 5px;
+       text-align:center;
+    }
+    
+    .LxcTable td:hover{
+    	background-color: #DCF4FF;
+    }
+
+    .LxcTable #Control a {
+        padding-right:10px;
+    }
+
+    .LxcTable a:hover {
+        color:#f00;
+    }
+    
+    /*Match页面*/
+    .LxcTable #Matchth1 {
+        width:350px;
+    }
+
+    .LxcTable #Matchth2 {
+        width:180px;
+    }
+    .LxcTable #Matchth3 {
+        
+    }
+    .LxcTable #Matchth4 {
+        width:130px;
+    }
+
+    .LxcTable #Check1 {
+    }
+    .LxcTable #Check2 {
+    }
+    .LxcTable #Check3 {
+        width:200px;
+    }
+    .LxcTable #Check4 {
+        width:200px;
+    }
+    .LxcTable #Check5 {
+        width:300px;
+    }
+
+    .LxcTable #Match1 {
+        width:300px;
+    }
+
+    .LxcTable #Match2 {
+        width:180px;
+    }
+    .LxcTable #Match3 {
+        
+    }
+    .LxcTable #Match4 {
+        width:230px;
+    }
+
+    .LxcTable #JudgeProject1 {
+    }
+
+     .LxcTable #JudgeProject2 {
+    }
+
+      .LxcTable #JudgeProject3 {
+          width:50px;
+    }
+
+
+     .LxcTable #JudgeProject4 {
+         width:140px;
+    }
+
+      .LxcTable #JudgeProject6 {
+          width:300px;
+    }
+
+       .LxcTable #JudgeProject7 {
+           width:100px;
+    }
+
+    .LxcTable #Mywork1 {
+        width:400px;
+    }
+
+     .LxcTable #Mywork2 {
+         width:100px;
+    }
+
+      .LxcTable #Mywork3 {
+          width:100px;
+    }
+
+       .LxcTable #Mywork4 {
+           width:120px;
+    }
+
+        .LxcTable #Mywork5 {
+           
+    }

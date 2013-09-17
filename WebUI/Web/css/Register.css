@@ -1,0 +1,70 @@
+﻿* {
+    list-style:none;
+}
+
+body {
+     font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+     background-image: url('../img/bg.png');
+}
+
+
+#head {
+    margin-left:50px;
+  
+}
+
+div {
+    margin-bottom:10px;  
+}
+
+
+.content {
+    /*min-height:800px;*/
+    
+}
+
+.Info {
+    /*margin-left:125px;
+    margin-top:20px;*/
+    margin:0 auto;
+    width:400px;
+    margin-top:20px;
+}
+
+    .Info div {
+        margin-bottom:24px;
+       
+    }
+
+
+
+label {
+    width:80px;
+    display:inline-block;
+    text-align:right;
+}
+
+.SelectMenu {
+    position:relative;
+}
+
+    .SelectMenu div.InTimeYear {
+        position:absolute;
+        top:0px;
+        left:145px;
+    }
+
+.submit {
+    margin-left:260px;
+    margin-top:20px;
+}
+
+
+.footer-bottom {
+    margin-left:420px;
+    margin-top:100px;
+}
+
+

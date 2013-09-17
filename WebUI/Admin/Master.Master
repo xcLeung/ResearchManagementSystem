@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ResearchManagementSystem.Admin.Master1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>项目申报系统</title>
+    <link href="<%=ResolveUrl("css/Master.css") %>" rel="stylesheet" />
+    <link href="<%=ResolveUrl("css/login.css") %>" rel="stylesheet" />
+    <script src="<%=ResolveUrl("js/jquery-1.9.1.min.js") %>"></script>
+    <script>
+       function openSecond() {
+           var href = location.href;
+           if (href.match(new RegExp("Student", "i"))) {
+               second = document.getElementsByClassName("Second");
+               second[0].style.display = "block";
+           }
+           if (href.match(new RegExp("Match", "i"))) {
+               second = document.getElementsByClassName("Second");
+               second[1].style.display = "block";
+           }
+           if (href.match(new RegExp("Administrator", "i"))) {
+               second = document.getElementsByClassName("Second");
+               second[2].style.display = "block";
+           }
+           if (href.match(new RegExp("Judge", "i"))) {
+               second = document.getElementsByClassName("Second");
+               second[3].style.display = "block";
+           }
+   
+       };
+     </script>
+</head>
+<body>
+    <header>
+        <div class="head">headpic
+            <div class="img">
+        </div>
+      </div>
+        <div class="header-nav">
+            <ul>
+                <li><a href="<%=ResolveUrl("Student") %>">学生账号管理</a></li>
+
+                <li><a href="<%=ResolveUrl("Match") %>">赛事管理</a></li>
+
+                <li><a href="<%=ResolveUrl("Administrator") %>">管理员管理</a></li>
+
+                <li><a href="<%=ResolveUrl("Judge") %>">评委管理</a></li>
+
+                <li><a href="<%=ResolveUrl("~/Web/Login/Default.aspx") %>" onclick="logout()">退出登录</a></li>
+            </ul>
+        </div>
+    </header>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderTop" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <form id="form1" runat="server">
+    <div class="left">
+        <div class="left_menu">
+            <ul class="Second">
+                   
+                    <li><a href="<%=ResolveUrl("Student")%>">未审核学生</a></li>
+
+                    <li><a href="<%=ResolveUrl("Student/List.aspx")%>">已审核学生</a></li>
+            </ul>
+            <ul class="Second">
+                   
+                    <li><a href="<%=ResolveUrl("Match")%>">所有比赛</a></li>
+
+                    <li><a href="<%=ResolveUrl("Match/Create.aspx")%>">添加比赛</a></li>
+             </ul>
+            <ul class="Second">
+                   
+                    <li><a href="<%=ResolveUrl("Administrator")%>">所有管理员</a></li>
+
+                    <li><a href="<%=ResolveUrl("Administrator/Create.aspx")%>">添加管理员</a></li>
+             </ul>
+             <ul class="Second">
+                   
+                    <li><a href="<%=ResolveUrl("Judge")%>">所有评委</a></li>
+
+                    <li><a href="<%=ResolveUrl("Judge/Create.aspx")%>">添加评委</a></li>
+               </ul>
+
+        </div>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderLeft" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="right">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderRight" runat="server">
+                </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <div class="footer-bottom">
+            Copyright &copy; <%=DateTime.Now.Year %> 版权所有 <a href="../../Admin" style="color:#1a6383;">项目申报系统</a> PoweredBy Racent Inc.
+        </div>
+    </footer>
+    <script>openSecond();</script>
+</body>
+</html>

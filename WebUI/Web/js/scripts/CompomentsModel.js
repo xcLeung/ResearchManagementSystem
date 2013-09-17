@@ -1,0 +1,6 @@
+var RUIKit = {
+    RTabs : {
+
+
+    }
+};

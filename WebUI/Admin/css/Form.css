@@ -1,0 +1,132 @@
+﻿* {
+    list-style:none;
+}
+
+body {
+    font-size: 16px;
+    /*background-image: url('../img/bg.png');*/
+    margin-bottom: 30px;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+div.FormContent {
+    padding-bottom:50px;
+}
+
+    .FormContent div.FormTitle {
+         margin:20px;
+         color:#5e7fbc;
+         padding-bottom:20px;
+         border-bottom: 1px dashed #CCC;
+    }
+
+    .FormContent div.layout {
+        margin: 0 auto;       
+        max-width:900px;
+    }
+
+        .FormContent .layout div.Form {
+            width:600px;
+            margin:0 auto;
+            padding-top:24px;
+        }
+
+            .FormContent .layout div.Form div {
+                margin-left:90px;
+                margin-bottom:24px;
+            }
+
+            .FormContent .layout div.Form label {
+                width:120px;
+                text-align:right;
+                display:inline-block;
+            }
+
+            .FormContent .layout div.Form input[type="text"] {
+                width:200px;
+            }
+
+                        
+
+             .FormContent .layout div.Form input[type="password"] {
+                width:200px;
+            }
+
+
+            .FormContent .layout div.Form select {
+                width:205px;
+            }
+
+                 .FormContent .layout .Form label.textarea {
+                     float:left;
+                 }
+
+                 .FormContent .layout .Form .text {               
+                    margin-left:124px !important;
+                }
+
+.lxcButton {
+    border-radius:3px;
+    border:1px solid #555;
+    background: #eee;
+    margin:0;
+    padding:0.2em 0.5em;
+    width:75px;
+    height:30px;
+
+    margin-left:125px;
+}
+
+      .lxcButton:hover{
+          background: #ccc;
+      
+      }
+      .lxcButton:active{
+          background: #555;
+          color:#fff;
+      
+      }
+
+
+#matchInfo {
+    margin-left:0px;
+}
+
+    #matchInfo div {
+        margin-left:24px;
+    }
+
+#judgeInfo {
+    margin-left:0px;
+}
+
+    #judgeInfo div {
+        margin-left:24px;
+    }
+
+.DatePick {
+    width:65px !important;
+}
+
+.JudgePick {
+    width:100px !important;
+}
+
+    .FormContent .layout div.MatchForm {
+            width:600px;
+            margin-left:30px;
+            padding-top:24px;
+        }
+
+
+.clearfix {
+    position:relative;
+    height:330px;
+}
+
+.clearfix div.editor {
+    position:absolute;
+    left:35px;
+    top:0px;
+}
+

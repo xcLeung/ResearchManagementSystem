@@ -1,0 +1,91 @@
+﻿body {
+}
+
+
+
+.left {
+    border:none;
+    height:0px;
+    width:0px;
+}
+
+    .left .left_menu  {
+        width:0px;
+    }
+
+.right {
+    margin:0px;
+    min-height:500px;
+    border-bottom:1px solid #000;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-decoration:none;
+    color:#000;
+}
+
+    p:hover {
+        color:#f00;
+        cursor:pointer;
+    }
+
+
+.ListContent {
+    min-height:500px;
+    margin-bottom:80px;
+}
+
+    .ListContent .ListTitle {
+        margin:50px;
+        color:#5e7fbc;
+        padding-bottom:20px;
+        border-bottom: 1px dashed #CCC;
+    }
+
+    .ListContent .layout {
+        padding-left:130px;
+        width:100%;
+    }
+
+
+.layout {
+}
+
+.LxcTable {
+      width:1000px;  
+      /*height:400px;*/
+}
+
+    .LxcTable th,.LxcTable td{
+        font-size: 1em;
+        /*font-weight: normal;*/
+        border:1px solid #b9c9d0;
+        /*padding: 3px 57px 2px 17px;*/
+        text-align: center;
+    }
+
+    
+
+            
+    .LxcTable th{
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color: #5e7fbc;
+        color:#fff;
+        text-align:center;
+        outline:1px solid #e0e0e0;
+    
+    }
+    
+    
+    .LxcTable  td {
+       outline:1px solid #e0e0e0;
+       padding:3px 5px;
+       text-align:center;
+    }
+    
+    .LxcTable td:hover{
+    	background-color: #DCF4FF;
+    }

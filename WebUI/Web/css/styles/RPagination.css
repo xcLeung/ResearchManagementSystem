@@ -1,0 +1,33 @@
+.RPagination{
+    display: inline;
+    line-height: 38px;
+    font-family: Arial,sans-serif;
+}
+.RPagination li{
+    display: inline;
+}
+.RPagination li a{
+    display: inline-block;
+    text-decoration: none;
+    width:31px;
+    height: 31px;
+    line-height: 31px;
+    /*colors*/
+    border:1px solid #000;
+    color:#000;
+    background-color:#fff;
+}
+.RPagination li a:hover,.RPagination li a.actived{
+    /*colors*/
+    color:#fff;
+    background-color:#000;
+}
+.RPagination li a.disabled{
+    border-color:#555;
+    color:#555;
+    background-color: #999;
+    cursor: not-allowed;
+}
+.RPagination span{
+    padding-left:0.5em;
+}

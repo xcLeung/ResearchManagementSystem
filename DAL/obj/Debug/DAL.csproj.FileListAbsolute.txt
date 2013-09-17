@@ -1,0 +1,36 @@
+F:\紫荆工作室\ResearchManagementSystem\DAL\bin\Debug\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\DAL\bin\Debug\DAL.pdb
+F:\紫荆工作室\ResearchManagementSystem\DAL\bin\Debug\Models.dll
+F:\紫荆工作室\ResearchManagementSystem\DAL\bin\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\DAL\bin\Debug\Models.pdb
+F:\紫荆工作室\ResearchManagementSystem\DAL\bin\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\紫荆工作室\ResearchManagementSystem\DAL\obj\Debug\DAL.dll
+F:\紫荆工作室\ResearchManagementSystem\DAL\obj\Debug\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\bin\Debug\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\bin\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\bin\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\obj\Debug\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\DAL\obj\Debug\DAL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\DAL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\DAL.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Models.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Utility.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Models.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Utility.pdb
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\obj\Debug\DAL.dll
+F:\QQ file\308295452\FileRecv\ResearchManagementSystem\ResearchManagementSystem\DAL\obj\Debug\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Models.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Models.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\obj\Debug\DAL.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\ResearchManagementSystem\DAL\obj\Debug\DAL.pdb

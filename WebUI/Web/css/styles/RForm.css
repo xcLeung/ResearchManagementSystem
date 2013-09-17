@@ -1,0 +1,208 @@
+input,label{
+                                                                /*基于vertical-align的表单元素垂直对齐方法*/
+    font-family:Tahoma,"Trebuchet MS",Helvetica,sans-serif;
+    font-size: 1.0em;
+    font-weight: normal;
+    vertical-align: middle;
+}
+*{                                                                     /*基于vertical-align的表单元素垂直对齐方法*/
+     margin: 0;
+ }
+fieldset{
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-left: 2px;
+
+}
+
+/*==============logindefault and loginblock====================*/
+.RForm_default{
+    white-space: nowrap;
+}
+.RForm_default input[type="text"],.RForm_default input[type="password"]{     /*IE6下不支持css input*/
+    border: 1px solid #e5e5e5;
+    background-color: #fbfbfb;
+    text-align: left;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;                                               /*line-height=height时IE7下输入字体垂直方向居中*/
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    padding: 0;
+    border-radius: 3px;
+
+}
+.RForm_default input[type="text"]:hover,.RForm_default input[type="password"]:hover{
+    border-color: #71d4ff;
+}
+.RForm_default button.submit{
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    padding: 3px 0;
+    line-height: 20px;
+    text-align: center;
+    /*text-shadow: 0 1px 1px rgba(255,255,255,0.75);*/
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #5e7fbc;
+    /*f5f5f5*/
+    width: 65px;
+    color: #dce2ed;
+    /*border:1px solid yellow;*/
+
+}
+.RForm_default button.submit:hover{   /*IE6下仅支持a Hover*/
+    /*background-color: #bcf4f7;*/
+    background-color: #a1b6dd;
+    color: #464647;
+}
+.RForm_default button.submit:active{   /*IE6下仅支持a Hover*/
+    background-color: #a1b6dd;
+    color: #fff;
+}
+
+
+.RForm_default label.Rcheckbox{
+    /*font-family:Tahoma,"Trebuchet MS",Helvetica,sans-serif;*/
+    font-size: 0.75em;
+    /*vertical-align: middle;*/
+}
+
+/*=========================================================*/
+
+.RForm_loginblock label{
+    display:block;
+
+}
+.RForm_loginblock label{
+    margin: 5px 0;
+}
+.RForm_loginblock input[type="text"],.RForm_loginblock input[type="password"]{
+    margin: 1px 0 1px 2px;
+    display: block;
+}
+.RForm_loginblock label.Rcheckbox{
+    margin: 15px 0;
+    width: 135px;
+    /*display: inline-block;*/
+}
+.RForm_loginblock button.submit{
+    /*margin-top: -10px;*/
+    margin-top:24px;
+    width: 60px;
+}
+.RForm_loginblock button.sign{
+
+    margin-left:74px;
+    margin-right:5px;
+}
+
+/*========================================================*/
+
+/*.RForm input[type="text"].bTogged,.RForm input[type="password"].bTogged,.RForm input[type="textarea"].bTogged{*/
+    /*background-color: #a9d5eb;*/
+/*}*/
+/*==============textarea======================*/
+.RForm_textarea textarea{
+    margin: 10px 0;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    -o-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+    -ms-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: auto;
+    cursor: auto;
+}
+.RForm_textarea textarea:hover{
+    border-color: #71d4ff;
+}
+/*======================================================*/
+.RForm_textarea textarea,.RForm_singleSelect select,.RForm_multipleSelect select{
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-align: start;
+}
+
+/*=============singleSelect===============================*/
+.RForm_singleSelect select.singleSelect{
+    margin-left: 1px;
+    width:120px;
+    border:1px solid #ccc;
+    background-color: #fff;
+    height: 30px;
+    line-height:30px;
+    display: inline-block;
+    padding: 4px 6px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*======================multipleSelect==========================*/
+.RForm_multipleSelect select.multipleSelect{
+    margin-left: 1px;
+    height:auto;
+    width: 120px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    padding: 4px 6px;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*=========================checkbox===============================*/
+.RForm_checkbox label.RForm_checkbox_inline{
+    font-size: 14px;
+    display: inline-block;
+    padding: 20px 0;
+    cursor: pointer;
+    margin-right: 15px;
+}
+/*.RForm_checkbox input{*/
+    /*vertical-align: middle;*/
+/*}*/
+/*====================radio=================*/
+.RForm_radio label.RForm_radio_RD{
+    font-size: 14px;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+/*.RForm_radio input{*/
+    /*vertical-align: middle;*/
+/*}*/

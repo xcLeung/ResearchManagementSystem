@@ -1,0 +1,281 @@
+﻿body {
+}
+
+
+
+.left {
+    border:none;
+    height:0px;
+    width:0px;
+}
+
+    .left .left_menu  {
+        width:0px;
+    }
+
+.right {
+    min-height:500px;
+    border-bottom:1px solid #000;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+    margin-left:0px;
+}
+
+.layout {
+}
+
+    .layout h3 {
+        color:#5e7fbc;
+        border-bottom:1px solid #CCC;
+        padding-bottom:10px;
+        cursor:pointer;
+        /*margin-right:100px;*/
+        /*width:200px;
+        display:inline-block;*/
+    }
+
+        .layout h3:hover {
+            color:#f00;
+        }
+
+    .layout .Title {
+        margin:50px;
+        color:#5e7fbc;
+        border-bottom: 1px dashed #CCC;
+        padding-bottom:24px;
+        position:relative;
+    }
+
+
+.Info {
+    margin-left:100px;
+}
+
+    .Info label {
+        width:130px;
+        display:inline-block;
+        text-align:right;
+    }
+
+    .Info .TitleDiv {
+        margin-bottom:24px;
+        width:1100px;
+    }
+
+    .Info .InfoDiv {
+        margin-top:24px;
+    }
+
+    .Info span {
+        width:80px;
+        display:inline-block;
+    }
+
+        .Info .InfoDiv div {
+            margin-bottom:15px;
+        }
+
+
+.InfoDiv div {
+    position:relative;
+}
+
+.InfoDiv .Textlabel  {
+    position:absolute;
+    top:115px;
+}
+
+.InfoDiv textarea {
+        width:600px;
+        height:300px;
+        margin-left:150px;
+    }
+
+
+
+
+    .InfoDiv textarea:hover {
+        border-color:#71d4ff;
+    }
+
+
+
+
+
+
+.DeclarantTable {
+    margin-left:20px;
+    /*width:1100px;*/  
+   
+}
+
+    .DeclarantTable td {
+        padding-top:7px;
+        padding-bottom:7px;
+        /*padding-right:40px;*/
+        /*margin-right:60px;*/
+    }
+
+    .DeclarantTable .title {
+        text-align:right;
+        /*padding-left:10px;*/
+        width:400px;
+      
+    }
+
+    .DeclarantTable .content {
+        text-align:left;
+        width:300px;
+       /*margin-right:120px;*/
+    }
+
+
+
+    .DeclarantTable textarea {
+        margin-left:0px;
+    }
+
+.LxcTable {
+      width:1100px;  
+      /*height:400px;*/
+      /*border-collapse:collapse;*/
+
+}
+
+    .LxcTable th , .LxcTable td {
+        font-size: 1em;
+        /*font-weight: normal;*/
+        border:1px solid #b9c9d0;
+        /*padding: 3px 57px 2px 17px;*/
+        text-align: center;
+    }
+            
+    .LxcTable th {
+        /*font-size: 1.1em;*/
+        padding-top: 5px;
+        padding-bottom: 4px;
+        background-color: #5e7fbc;
+        color:#fff;
+        text-align:center;
+        outline:1px solid #e0e0e0;   
+    }
+    
+    
+    .LxcTable  td {
+       outline:1px solid #e0e0e0;
+       padding:3px 5px;
+       text-align:center;
+    }
+
+
+
+
+    /*团队成员*/
+    .LxcTable  #Tname {
+        width:150px;
+    }
+
+    .LxcTable  #Tsex {
+        width:100px;
+    }
+
+    .LxcTable  #Tage {
+         width:100px;
+    }
+
+    .LxcTable  #Tbackground {
+         width:180px;
+    }
+
+    .LxcTable  #Tworkunits {
+
+    }
+
+    /*推荐人*/
+    .LxcTable  #Rname {
+        width:50px;
+    }
+
+    .LxcTable  #Rsex {
+        width:35px;
+    }
+
+    .LxcTable  #Rage {
+         width:35px;
+    }
+
+    .LxcTable  #Rtitle {
+         width:40px;
+    }
+
+    .LxcTable  #Rworkunits {
+        width:130px;
+    }
+
+    .LxcTable  #Raddress {
+        width:130px;
+    }
+
+    .LxcTable  #Rpostal {
+         width:65px;
+    }
+
+    .LxcTable  #Rphone {
+         width:50px;
+    }
+
+    .LxcTable  #Rhomephone {
+        width:50px;
+    }
+
+.lxcButton {
+    border-radius:3px;
+    border:1px solid #555;
+    background: #eee;
+    margin:0;
+    padding:0.2em 0.5em;
+
+}
+
+      .lxcButton:hover{
+          background: #ccc;
+      
+      }
+      .lxcButton:active{
+          background: #555;
+          color:#fff;
+      
+      }
+
+#btn {
+    width:75px;
+    height:30px;
+    margin-left:50px;
+}
+
+#Pass {
+    width:80px;
+    margin-left:150px;
+    float:left;
+}
+
+    #Pass:hover {
+        border-color:#71d4ff;
+    }
+
+
+span.caret{ /*加上button>使得三角效果不出现在IE6上*/
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 8px solid #517fbc;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    content: "";
+    /*margin-left:50px;*/
+    margin-right:10px;
+    margin-top:10px;
+    /*position: absolute;
+    top:12px;      /*位置相对button改变,位于button文本的右边*/
+    /*right:4px;*/     /*chrome默认居中,所以需加上right值*/*/
+}

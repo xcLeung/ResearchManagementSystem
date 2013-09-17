@@ -1,0 +1,102 @@
+﻿* {
+    list-style:none;
+    /*margin:0;
+    padding:0;*/
+}
+
+body {
+    font-size: 16px;
+    /*background-image: url('../img/bg.png');*/
+    margin-bottom: 30px;
+    font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+}
+
+
+.layout {
+    position:relative;
+}
+
+    .layout .Flash {
+        width:85%;        
+        margin:5px auto;
+    }
+
+    .layout .JForm {
+        margin-top:100px;
+        margin-left:60px;
+    }
+
+    .layout .JForm div {
+        margin-bottom:24px;
+    }
+
+    .layout .JForm textarea {
+         width:550px;
+        height:300px;
+    }
+
+#textareaDiv {
+    position:relative;
+    /*height:500px;*/
+}
+
+    #textareaDiv label {
+        position:absolute;
+        top:130px;
+    }
+
+    #textareaDiv textarea {
+        margin-left:105px;
+        /*position:absolute;*/
+        top:100px;
+    }
+
+
+
+
+
+    .layout #btn {
+         width:75px;
+        height:30px;
+        margin-left:105px;
+        margin-bottom:30px;
+    }
+
+
+
+
+.lxcButton {
+    border-radius:3px;
+    border:1px solid #555;
+    background: #eee;
+    margin:0;
+    padding:0.2em 0.5em;
+   
+}
+
+      .lxcButton:hover{
+          background: #ccc;
+      
+      }
+      .lxcButton:active{
+          background: #555;
+          color:#fff;
+      
+      }
+
+#back {
+    margin-left:105px;
+}
+
+#go {
+    margin-left:100px;
+}
+
+
+#projectBack {
+    margin-left:90px;
+}
+
+.buttonLabel {
+    padding-bottom:35px;
+}

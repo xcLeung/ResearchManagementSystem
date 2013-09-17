@@ -1,0 +1,10 @@
+F:\紫荆工作室\ResearchManagementSystem\Utility\bin\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\Utility\bin\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\Utility\obj\Debug\Utility.dll
+F:\紫荆工作室\ResearchManagementSystem\Utility\obj\Debug\Utility.pdb
+F:\紫荆工作室\ResearchManagementSystem\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Utility\bin\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Utility\bin\Debug\Utility.pdb
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Utility\obj\Debug\Utility.dll
+C:\Users\YunHaiHuang\Desktop\ResearchManagementSystem\Utility\obj\Debug\Utility.pdb

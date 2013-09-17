@@ -1,0 +1,35 @@
+.RTable{
+	font-family: Arial,"Trebuchet MS", Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+.RTable th,.RTable td{
+    font-size: 1em;
+    font-weight: normal;
+    border:1px solid #b9c9d0;
+    padding: 3px 57px 2px 17px;
+    text-align: left;
+
+}
+.RTable th{
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #d0ebf8;
+
+}
+.RTable_bordered{
+	border-left:1px solid #b9c9d0;
+	border-right:1px solid #b9c9d0;
+}
+.RTable_bordered th,.RTable_bordered td{
+	border-left: none;
+    border-right: none;
+}
+.RTable_hover tr:hover{
+	background-color: #DCF4FF;
+}
+.RTable_selected .selected{
+	background-color: #f7fcff;
+}
